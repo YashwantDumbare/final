@@ -15,7 +15,7 @@ public class UnaryOp3 {
 		System.out.println("b: "+b);// -36
 
 		a = 21;
-		b = --a + --a + --a + a + ++a + a++;
+		b = --a + --a + --a + a + ++a + a++;//20 19 18 18 19 19 a=20
 		System.out.println(a);//
 		System.out.println(b);// 
 
